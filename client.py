@@ -22,7 +22,7 @@ session = Session()
 lock = threading.Lock()
 locks = {}
 
-host = "http://94.228.121.219:8080"
+host = "http://137.184.209.115:8080"
 
 def load_url(url, data):
     text = json.dumps(data)
